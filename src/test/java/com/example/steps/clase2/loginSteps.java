@@ -1,4 +1,4 @@
-package com.example.steps;
+package com.example.steps.clase2;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

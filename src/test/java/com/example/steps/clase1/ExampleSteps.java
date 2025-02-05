@@ -1,4 +1,4 @@
-package com.example.steps;
+package com.example.steps.clase1;
 
 import com.example.task.AddNumbers;
 import io.cucumber.java.en.Given;
