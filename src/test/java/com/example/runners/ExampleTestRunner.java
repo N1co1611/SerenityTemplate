@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/calculadora.feature",
         glue = "com.example.steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        plugin = "pretty"
+        plugin = "pretty",
+        tags = "@Test1"
 )
 public class ExampleTestRunner {
 }
