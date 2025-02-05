@@ -11,4 +11,4 @@ Feature: Inicio de sesion de usuario
   Scenario: Iniciar sesion con credenciales invalidas
     Given el usuario esta previamente registrado y en la pagina de inicio
     When el usuario ingresa su usarname "johan_nicolas" y la contraseña "123"
-    Then la pagina debe mostra el mensaje "Error en las credenciales"
+    Then la pagina debe mostrar el mensaje "Error en las credenciales"
