@@ -1,6 +1,6 @@
 package com.example.steps.clase1;
 
-import com.example.task.AddNumbers;
+import com.example.task.clase1.AddNumbers;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

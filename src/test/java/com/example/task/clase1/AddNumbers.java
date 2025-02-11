@@ -1,4 +1,4 @@
-package com.example.task;
+package com.example.task.clase1;
 
 import com.example.App;
 import net.serenitybdd.screenplay.Actor;

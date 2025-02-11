@@ -11,11 +11,13 @@ import static org.junit.Assert.assertEquals;
 
 public class SonidoSteps {
 
-    Sonido claseSonido;
+    Sonido claseSonido; //Esta línea declara una variable de instancia llamada animal que puede almacenar una referencia a un objeto de tipo Animal
 
     @Given("un perro")
     public void unPerro() {
         claseSonido = new Perro();
+        //Esta parte del código crea un
+        // nuevo objeto de la clase Gato
     }
 
     @When("hace un sonido")
