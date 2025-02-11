@@ -35,7 +35,20 @@ ext {
     junit_vintage_engine_version="5.11.4"
     logback_classic_version="1.2.10"
     assertj_core_version="3.23.1"
+
+    environments = [
+            qa   : "https://qa.miapp.com",
+            prod : "https://prod.miapp.com"
+    ]
 }
+
+task printEnvironments {
+    doLast {
+        println "QA Environment URL: ${environments.qa}"
+        println "Prod Environment URL: ${environments.prod}"
+    }
+}
+
 
 dependencies {
     dependencies {
