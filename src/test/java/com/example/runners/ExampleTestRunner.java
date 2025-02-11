@@ -7,11 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/calculadora.feature",
+        features = "src/test/resources/features/sonidos.feature",
         glue = "com.example.steps",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        plugin = "pretty",
-        tags = "@Test1"
+        plugin = "pretty"
 )
 public class ExampleTestRunner {
 }
