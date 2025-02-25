@@ -20,7 +20,7 @@ public class MercadoSteps {
     @Given("el Comprador está en la página de inicio de MercadoLibre")
     public void elCompradorEstáEnLaPáginaDeInicioDeMercadoLibre() {
         OnStage.setTheStage(new OnlineCast());
-//        OnStage.theActorCalled("Comprador").wasAbleTo(OpenMercadoLibre.onHomePage());
+
         Actor comprador = OnStage.theActorCalled("Comprador");
         comprador.wasAbleTo(OpenMercadoLibre.onHomePage());
     }
@@ -28,6 +28,8 @@ public class MercadoSteps {
     @When("busca el producto {string}")
     public void buscaElProducto(String productName) {
         OnStage.theActorInTheSpotlight().attemptsTo(SearchProduct.withName(productName));
+
+//        OnStage.theActorCalled("Comprador").attemptsTo(SearchProduct.withName(productName));
     }
 
     @Then("añade el primer producto al carrito")
